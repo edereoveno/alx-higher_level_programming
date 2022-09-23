@@ -6,4 +6,4 @@ if __name__ == "__main__":
     a = 1
     b = 2
     #pass variables as arguments in function and print
-    print("{} + {} = {}".format(a,b,add_.add(a, b)))
+    print("{} + {} = {}".format(a , b, add_.add(a, b)))
