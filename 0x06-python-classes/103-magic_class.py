@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 import math
+"""
+
+A module for Magic class
+"""
 
 class MagicClass:
     ''' Magic Class reverses given Class to bytecode'''
