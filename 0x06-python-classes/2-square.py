@@ -1,5 +1,8 @@
 #!/usr/bin/python3
+"""
+A module for Square class
 
+"""
 
 class Square:
     '''Class Square object intialized with size
