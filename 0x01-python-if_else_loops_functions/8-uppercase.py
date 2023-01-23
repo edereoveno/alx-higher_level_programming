@@ -1,8 +1,11 @@
 #!/usr/bin/python3
 
 def uppercase(str):
+	output = ''
 	for character in str:
 		if ord(character) in range(97, 123):
-			print("{}".format(chr(ord(character) - 32)), end="")
+			output += chr(ord(character) - 32)
+		#elif ord(character) in range(65, 91):
 		else:
-			print("{}".format(character), end="")
+			output += character
+	print("{}".format(output))
