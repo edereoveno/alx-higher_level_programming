@@ -1,5 +1,6 @@
 #!/usr/bin/python
-"""Defines a square class
+"""
+Defines a square class
 """
 
 
