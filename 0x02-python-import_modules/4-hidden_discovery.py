@@ -6,5 +6,5 @@ names = dir(hidden_4)
 avoid = "__"
 
 for name in range(0, len(names)):
-    if avoid not in names:
+    if avoid not in names[name]:
         print(names[name])
