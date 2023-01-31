@@ -3,6 +3,7 @@
     An empty Reatangle class
 """
 
+
 class Rectangle():
     """Rectangle class"""
     pass
