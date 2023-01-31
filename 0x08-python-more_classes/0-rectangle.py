@@ -1,6 +1,6 @@
-#!/usr/bin/bash
+#!/usr/bin/python3
 """
-    An empty Reatangle class
+    An empty Rectangle class
 """
 
 
