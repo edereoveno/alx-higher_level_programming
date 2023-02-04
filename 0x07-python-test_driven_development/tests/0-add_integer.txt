@@ -34,11 +34,11 @@ Using it:
     TypeError: add_integer() missing 1 required positional argument: 'a'
 
 """Function will fail if number is too big"""
-    >>> add(1e100)
-    Traceback (most recent call):
-    OverFlowError: cannot convert float infinity to integer
+    >>> add_integer(1000e1000)
+    Traceback (most recent call last):
+    OverflowError: cannot convert float infinity to integer
 
 """Function will fail if number is too big"""
-    >>> add(float('nan')
-    Traceback (most recent call):
-    ValueError: cannot convert float Nan to integer
+    >>> add_integer(float('nan'))
+    Traceback (most recent call last):
+    ValueError: cannot convert float NaN to integer
