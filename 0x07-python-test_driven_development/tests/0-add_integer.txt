@@ -37,3 +37,8 @@ Using it:
     >>> add(1e100)
     Traceback (most recent call):
     OverFlowError: cannot convert float infinity to integer
+
+"""Function will fail if number is too big"""
+    >>> add(float('nan')
+    Traceback (most recent call):
+    ValueError: cannot convert float Nan to integer
