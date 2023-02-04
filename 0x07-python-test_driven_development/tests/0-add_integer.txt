@@ -9,13 +9,31 @@ Using it:
     >>> add_integer(5, 6)
     11
 
+    >>> add_integer(5, 6.3)
+    11
+
+    >>> add_integer(5.2, 6)
+    11
+
     >>> add_integer(5.2, 6.3)
     11
 
+"""Argument a must be an integer or a float"""
     >>> add_integer("5", 6)
     Traceback (most recent call last):
     TypeError: a must be an integer
 
+"""Argument b must be an integer or a float"""
     >>> add_integer(5, "6")
     Traceback (most recent call last):
     TypeError: b must be an integer
+
+"""Function must have arguments"""
+    >>> add_integer()
+    Traceback (most recent call last):
+    TypeError: add_integer() missing 1 required positional argument: 'a'
+
+"""Function will fail if number is too big"""
+    >>> add(1e100)
+    Traceback (most recent call):
+    OverFlowError: cannot convert float infinity to integer
