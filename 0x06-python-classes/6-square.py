@@ -8,7 +8,7 @@ A module of a square class
 class Square():
     """A square class"""
 
-    def __init__(self, size=0, position=(0,0)):
+    def __init__(self, size=0, position=(0, 0)):
         """instantiation"""
 
         self.__size = size
