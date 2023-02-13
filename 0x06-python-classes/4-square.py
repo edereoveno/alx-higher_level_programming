@@ -5,13 +5,13 @@
 
 class Square():
     """A square class"""
-    def __init__(self, size):
+    def __init__(self, size=0):
         """initializes a new square
 
         Args:
             size(int) size of new square
         """
-        self.size = size
+        self.__size = size
     @property
     def size(self):
         """retrieves tne size"""
