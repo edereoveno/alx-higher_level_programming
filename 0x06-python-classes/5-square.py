@@ -34,8 +34,8 @@ class Square():
         """print of square with character #"""
         size = self.__size
         if size == 0:
-            print('\n')
+            print()
         for i in range(size):
             for j in range(size):
-                print('#', end=" ")
+                print('#', end="")
             print()
