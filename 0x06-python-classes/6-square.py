@@ -53,6 +53,7 @@ class Square():
         position = self.__position
         if size == 0:
             print()
+            return
         for l in range(position[1]):
             print()
         for i in range(size):
