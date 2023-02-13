@@ -11,7 +11,7 @@ class Square():
     def __init__(self, size=0, position=(0, 0)):
         """instantiation"""
 
-        self.__size = size
+        self.size = size
         self.position = position
 
     @property
@@ -35,7 +35,6 @@ class Square():
     def position(self):
         """retrieves position"""
         return self.__position
-
 
     @position.setter
     def position(self, value):
