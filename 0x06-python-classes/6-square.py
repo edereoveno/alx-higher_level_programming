@@ -54,7 +54,7 @@ class Square():
         if size == 0:
             print()
             return
-        for l in range(position[1]):
+        for pos in range(position[1]):
             print()
         for i in range(size):
             for j in range(position[0]):
