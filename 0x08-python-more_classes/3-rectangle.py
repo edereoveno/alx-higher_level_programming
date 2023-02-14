@@ -56,7 +56,7 @@ class Rectangle():
     def __str__(self):
         """prints representation of the rectangle using the # character"""
         if self.__width == 0 or self.__height == 0:
-            rectangle = ""
+            return ""
         rectangle = ""
         for i in range(self.__height):
             for j in range(self.__width):
