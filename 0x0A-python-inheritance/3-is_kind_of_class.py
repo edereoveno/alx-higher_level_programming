@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-
-"""
-Module defines a function that checks the class of an object
-"""
+"""Defines a class and inherited class-checking function."""
 
 
 def is_kind_of_class(obj, a _class):
