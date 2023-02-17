@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 Module defines a function that checks the class of an object
 """
