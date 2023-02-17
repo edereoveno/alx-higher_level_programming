@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-    Module returns True if object is an instance of class
-    or inherited class
+Module returns True if object is an instance of class
+or inherited class
 """
 
 
