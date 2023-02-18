@@ -2,5 +2,5 @@
 """Module of an empty class"""
 
 class BaseGeometry():
-    """Empty class"""
+    """an empty class"""
     pass
