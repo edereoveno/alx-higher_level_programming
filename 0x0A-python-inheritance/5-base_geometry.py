@@ -1,6 +1,6 @@
 #!/usr/bin/pyhton3
 """Module of an empty class"""
 
-
-def BaseGeometry():
+class BaseGeometry():
+    """Empty class"""
     pass
