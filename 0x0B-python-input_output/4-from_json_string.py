@@ -6,7 +6,7 @@ Module with function that returns from its JSON representation
 import json
 
 
-def to_json_string(my_str):
+def from_json_string(my_str):
     """
         Function returns an object represented by JSON string
     """
