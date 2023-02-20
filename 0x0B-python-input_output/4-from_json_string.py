@@ -7,6 +7,8 @@ import json
 
 
 def to_json_string(my_str):
-    """Function returns an object represented by JSON string"""
+    """
+        Function returns an object represented by JSON string
+    """
 
     return json.loads(my_str)
