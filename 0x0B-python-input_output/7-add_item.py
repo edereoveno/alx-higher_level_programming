@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Module adds all argument to a python list, then saves to a file using JSON represntation
+Module adds all argument to a python list,
+then saves to a file using JSON represntation
 """
 import sys
 
