@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-
-"""
-    module of Rectangle class that inherits from Base
-"""
+"""Module of Rectangle class that inherits from Base"""
 from base import Base
 
 
