@@ -1,13 +1,13 @@
-#!/usr/bin/python3
+#!/usr/b:cain/python3
 """Module of Rectangle class that inherits from Base"""
 from base import Base
 
 
 class Rectangle(Base):
     """A Rectangle Class"""
-
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initialize a new Rectangle
+
         Args:
             width (int): The width of the new Rectangle.
             height (int): The height of the new Rectangle.
