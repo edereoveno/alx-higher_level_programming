@@ -1,4 +1,4 @@
-#!/usr/b:cain/python3
+#!/usr/bin/python3
 """Module of Rectangle class that inherits from Base"""
 from base import Base
 
